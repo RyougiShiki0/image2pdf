@@ -1,4 +1,4 @@
-import jmcomic, os, time, yaml
+import jmcomic,  os, time, yaml
 from PIL import Image
 
 def all2PDF(input_folder, pdfpath, pdfname):
@@ -45,7 +45,7 @@ def all2PDF(input_folder, pdfpath, pdfname):
 
 if __name__ == "__main__":
     # 自定义设置：
-    config = "D:/18comic_down/code/config.yml"
+    config = "E:/18comic_down/code/config.yml"
     loadConfig = jmcomic.JmOption.from_file(config)
     #如果需要下载，则取消以下注释
     # manhua = ['146417']

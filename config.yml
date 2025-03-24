@@ -2,7 +2,7 @@
 version: '2.0'
 
 dir_rule:
-  base_dir: D:/18comic_down/books
+  base_dir: E:/18comic_down/books
   rule: Bd_Atitle_Pindex
 
 client:
